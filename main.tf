@@ -20,7 +20,7 @@ module "vpc" {
     # database subnets
     database_subnet_cidrs = var.database_subnet_cidrs
 
-    is_peering_required = true
+    is_peering_required = false
 }
 
 # data "aws_availability_zones" "available" {
